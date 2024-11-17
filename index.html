@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoFrame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>VideoFrame</h1>
+            <select class="language-selector" id="languageSelector">
+                <option value="en">English</option>
+                <option value="vi">Tiếng Việt</option>
+            </select>
+        </div>
+        <div class="input-section">
+            <textarea id="iframeInput" placeholder="Paste your iframe video code here..."></textarea>
+            <button onclick="loadVideo()">Load Video</button>
+        </div>
+        <div class="video-display" id="videoDisplay">
+            <h2>Video Preview</h2>
+            <div id="videoContainer"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Designed with ❤ by <a href="#">Minh Tú</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
